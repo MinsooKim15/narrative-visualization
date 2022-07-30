@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.3.1/d3-annotation.min.js"></script>
+    <script src="./app.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+          <h1>Population in Tokyo Between 2010 to 2020 </h1>
+          <h3>Does Population Decrease for All Locations? </h3>
+        </div>
+    </nav>
+    <div>
+        <h2>
+            Information
+        </h2>
+        <h3>
+            One of the three effective narrative visualization structures : Interactive Slideshow <br>
+            Users can click the buttons on the top to see other detailed information, such as difference among <br>
+            2010-2020, 3 other locations from 2010 to 2010, and the total difference in the whole country. <br> <br>
+
+            As users go into next pages, they will be able to see the population in 2010, 2015, and 2020 by state. <br>
+            If
+            user would like to review other states’ population, he or she can select the location names on the buttons
+            <br>
+            in the top menu. <br>
+
+        </h3>
+        <h2>
+            Messaging:
+        </h2>
+        <h3>
+            Some may have heard it before, but the total population in Japan has been decreasing every year since early
+            <br>
+            2000s. Its government prefects its population would continue to drop by a little bit every year. However, I
+            <br>
+            was curious and wanted to communicate the message of population change and trends for certain states. Japan
+            <br>
+            has 47 states (called prefectures), and does every state decrease its population since total population has
+            <br>
+            been decreasing? The answer is no. There are 7 states have increased population this past 10 years, which
+            <br>
+            users would be able to see in “Changes by State”. <br>
+        </h3>
+        <h2>
+
+            Narrative Structure: Interactive Slideshow
+
+        </h2>
+        <h3>
+            Users can follow the buttons from left to right to follow the “steps” as it goes to the next pages. <br>
+            This is
+            interactive slideshow because there are a little bit “drill-down” pages to narrow down or provide details of
+            <br>
+            certain states’ population.<br>
+
+        </h3>
+        <h2>
+            Visual Structure:
+        </h2>
+        <h3>
+            Each scene is followed by bar graph, and the structure is contestant across this narrative visualization<br>
+            project. Viewers can understand the data by reading the texts in X and Y axis, and there are descriptions
+            in<br>
+            the title. There are also tooltips and annotations for users to follow, so they can stay focused on the<br>
+            presented data on each scene.<br>
+
+            There are 8 buttons on the top of each html page, and viewers can follow the buttons from the left to
+            right<br>
+            along with descriptions<br>
+
+        </h3>
+        <h2>
+            Scenes:
+        </h2>
+        <h3>
+            Scenes contain 8 buttons on the top of the page and one chart underearth the options. Scenes are followed
+            in<br>
+            a consistent format, which is options on the top and single bar chart and the same way as other scenes
+            to<br>
+            avoid viewers to get confused.<br>
+
+            Scenes contain 8 buttons on the top of the page and one chart underearth the options. Scenes are followed
+            in<br>
+            a consistent format, which is options on the top and single bar chart and the same way as other scenes
+            to<br>
+            avoid viewers to get confused.<br>
+            The annotation template contains texts and pointers to pinpoint the location that I would like to
+            emphasize<br>
+            in the bar graph. The annotations especially support certain data points. For example, I used one for
+            the<br>
+            last bar graph to deliver the message where the population has been decreasing and it pointed the
+            location<br>
+            of the bar graph, so users are easily able to follow and focus the message I would like to communicate.
+            Some<br>
+            annotations change since the trends are changed and I would like to put emphasis on the increased or<br>
+            decreased values.
+
+
+        </h3>
+        <h2>
+            Parameters:
+        </h2>
+        <h3>
+            My parameters are variables, which is chart years in populations, and animated bar charts and top of
+            options<br>
+            as slide numbers. Viewers can see the parameters on the top of each page.<br>
+
+        </h3>
+        <h2>
+            Triggers:
+        </h2>
+        <h3>
+            My triggers are used a connector to the next chart or page to change the parameters. My triggers are
+            buttons<br>
+            and hovering over the bar graph to display the details information.<br>
+
+        </h3>
+        <h2>
+            Data Location:
+        </h2>
+        <h3>
+            Data Obtained in <a href="https://www.stat.go.jp/data/nihon/02.html">Japanese Ministry of Internal Affairs
+                and Communications</a>
+
+        </h3>
+    </div>
+    <div class="move">
+        <button type="button" onclick="window.location='data1.html';">Next</button>
+    </div>
+</body>
+
+</html>
